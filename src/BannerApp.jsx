@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 import Banner from 'react-banner'
 import "./App.css";
 
-class App extends React.Component {
+class BannerApp extends React.Component {
   constructor(props) {
     super(props);
   }
