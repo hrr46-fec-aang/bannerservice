@@ -28,4 +28,4 @@ class BannerApp extends React.Component {
   }
 }
 
-ReactDOM.render(<App />, document.getElementById("banner"));
+ReactDOM.render(<BannerApp />, document.getElementById("banner"));
