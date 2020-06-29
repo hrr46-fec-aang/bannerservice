@@ -5,14 +5,6 @@ img {
   height: 30px;
   width: 30px;
 }
-.banner {
-  position: relative;
-}
-.hello {
-  position: absolute;
-  top: 17px;
-  left: 70px;
-}
 
 .banner-search {
   flex: 0 0 auto;
@@ -117,6 +109,7 @@ img {
   }
 }
 .banner {
+  position: relative;
   background: white;
   display: inline;
 }
@@ -130,6 +123,12 @@ img {
   margin: 0 auto;
   padding: 0 1.5em;
   align-items: center;
+  background-image: url('https://s3-us-east-2.amazonaws.com/rvshare-wordpress/wp-content/uploads/2019/05/15171042/hipcamp-logo-1024x1024.png');
+  background-size: 30px;
+  background-repeat: no-repeat;
+  background-position: 0% 40%;
+
+
 }
 
 .banner__mobile {
@@ -151,8 +150,7 @@ img {
 }
 
 .banner__logo {
-  background-image: url('https://theme.zdassets.com/theme_assets/9056044/7c6bc380edbbcd456f444f6dac5fd93dea12e03c.png') !important;
-  margin: auto;
+  margin: auto auto auto 12px;
   text-decoration: none;
   text-transform: uppercase;
   font-weight: bolder;

@@ -1,7 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import Banner from 'react-banner'
-import Button from "./App.style";
 import "./App.css";
 
 class App extends React.Component {
@@ -11,7 +10,6 @@ class App extends React.Component {
 
   render() {
     return (<div className="banner">
-      <div className="hello"><img src="https://s3-us-east-2.amazonaws.com/rvshare-wordpress/wp-content/uploads/2019/05/15171042/hipcamp-logo-1024x1024.png" alt="*"/></div>
       <Banner
           logo= 'campaang'
           url={ window.location.pathname }
