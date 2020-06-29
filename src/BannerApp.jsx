@@ -28,4 +28,4 @@ class App extends React.Component {
   }
 }
 
-ReactDOM.render(<App />, document.getElementById("bannerApp"));
+ReactDOM.render(<App />, document.getElementById("banner"));
